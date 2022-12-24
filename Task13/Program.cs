@@ -2,8 +2,7 @@
 //заданного числа или сообщает, что третьей цифры нет.
 
 Console.Write("Введите число: ");
-int Number = Convert.ToInt32(Console.ReadLine());
-string NumberText = Convert.ToString(Number);
+string NumberText = Console.ReadLine();
 if (NumberText.Length > 2)
 {
   Console.WriteLine("третья цифра " + NumberText[2]);
